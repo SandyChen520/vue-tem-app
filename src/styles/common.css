@@ -1,0 +1,27 @@
+*{
+  margin:0;
+  padding:0;
+}
+body,html{
+  width:100%;
+}
+ul,li,ol,dt,dd{
+  list-style: none;
+}
+html {
+  -webkit-tap-highlight-color: transparent
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:focus, button:focus, input:focus, textarea:focus {
+  outline: 0
+}
+
+button, input, textarea {
+  font: inherit;
+  color: inherit
+}
